@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#mainbg{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-size: 16px;
+    /* border: 2px solid #000000;
+    border-radius: 50px;
+    padding: 10px 10px; */
+}
+#navp1{
+    border: 1.5px solid #000000;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+#nav i{
+    border: 1.5px solid #000000;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+#nav-part2{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav button{
+    font-size: 15px;
+    /* background-color: #00000000; */
+    padding: 10px 10px;
+    /* border: 1.5px solid #000000; */
+    border-radius: 50px;
+}
+#btn1{
+    background-color: #00000000;
+    border: 1.5px solid #000000;
+}
+#btn2{
+    color: #ffffff;
+    background-color: orangered;
+    border: none;
+}
+#mainbg>h1{
+/* It will only effect the H1 which is directly under the #mainbg id */
+font-size: 130px;
+text-transform: uppercase;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+text-align: center;
+}
+img{
+    height: 400px;
+    width: 350px;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+/* object fit cover is used to make an image fit in the given cover by CSS */
+    object-position: top;
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#whole-bottom {
+    position: absolute; /* or fixed, if you want it to stay on scroll */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btm-left {
+    font-size: 16px;
+}
+
+#scroll-bottom {
+    font-size: 24px;
+}
+
+#social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}

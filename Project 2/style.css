@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#mainbg{
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 20px 50px;
+}
+#intro h1{
+    font-size: 115px;
+    letter-spacing: 10px;
+    line-height: 115px;
+}
+#place{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
