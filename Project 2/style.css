@@ -13,20 +13,49 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+#nav p{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin: 0px 5px;
+}
+
 #intro{
-    height: 45%;
+    height: 55%;
     width: 100%;
     /* background-color: bisque; */
-    padding: 20px 50px;
+    padding: 10px 50px;
 }
 #intro h1{
     font-size: 115px;
     letter-spacing: 10px;
     line-height: 115px;
+    margin-bottom: 30px;
+}
+#intro h3{
+    font-size: 20px;
+}
+#intro h4{
+    font-size: 20px;
 }
 #place{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#hero-image{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
 }
