@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245 248 253);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: poppins;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    padding: 50px 65px;
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-between;
+    width: 100%;
+}
+#nav h4:hover{
+    border-bottom: 2px solid black;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%; 
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#content{
+    padding: 50px 65px;
+    margin-top: 50px;
+}
+#content h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#content h1{
+    margin-top: 20px;
+    font-size: 120px;
+    letter-spacing: -4px;
+    word-spacing: 10px;
+    line-height: 122px;
+    font-weight: 400;
+}
+#case{
+    padding: 50px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#case h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: black
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 65px;
+    gap: 80px;
+}
+.elements{
+    width: 50%;
+}
+.elem-img{
+    height: 600px;
+    width: 100%;
+    /* background-color: rgb(224, 252, 255); */
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/userupload/40432598/file/original-cda438c66cd1a9f01f5bb75b3121e916.png?resize=1024x768&vertical=center);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.bottom i{
+    padding: 10px 30px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.bottom h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(108, 108, 108);
+}
